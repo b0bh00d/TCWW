@@ -43,7 +43,7 @@ it, and update all Build Agent configurations to point at the same location.
 Please see the README.md file in the 'builders_conf/' folder of this project for
 more detail on where cache file can be stored, and how to select these locations.
 
-### Current status
+## Current status
 The system is currently functional, but should be considered a work-in-progress
 while I continue to tinker with it.  Determining warning message differentials
 is actually harder than it might seem at first glance, and currently, the system

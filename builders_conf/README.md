@@ -48,15 +48,13 @@ you must include the username and password in the URL; e.g.:
   ```
 
 If you have installed the Dropbox module into your working Python, and you have
-and authorized Dropbox App token, you can specify this storage type in the
-**Cache** setting by prefixing the path on Dropbox with "dropbox:"; e.g.:
+an authorized Dropbox App token, you can specify this storage type in the
+**Cache** setting by prefixing the path on Dropbox with "dropbox:" and providing
+your access token, terminated with another colon; e.g.:
 
   ```xml
-  <Cache value="dropbox:/TCWW"/>
+  <Cache value="dropbox:<app-access-token>:/TCWW"/>
   ```
-
-You must provide the Dropbox App token on the WarningWatcher command line using
-the "--dropbox-app-token" option.
 
 ### Agent Path
 The **AgentPath** setting points at the TeamCity build agent path.  This path
